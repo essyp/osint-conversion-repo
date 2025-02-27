@@ -587,6 +587,32 @@ kbd kbd {
   font-size: 1em;
 }
 
+/* custom css  */
+
+.category small {
+  color: var(--bs-gray-500);
+  opacity: 1.0;
+}
+.category hr{
+  color: var(--bs-body-bg);
+  opacity: 1.0;
+  margin-bottom: 0;
+}
+.category{
+  transition: 0.4s;
+}
+.category:hover{
+  cursor: pointer;
+  background-color: var(--bs-body-bg);
+}
+.hide{
+  color: white;
+  transition: 0.4s;
+}
+.category:hover .hide{
+  color: var(--bs-heading-color);
+}
+
 figure {
   margin: 0 0 1rem;
 }
