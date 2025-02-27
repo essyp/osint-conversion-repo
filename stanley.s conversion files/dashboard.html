@@ -1,0 +1,742 @@
+
+<!doctype html>
+<html lang="en">
+  <!-- [Head] start -->
+
+  <head>
+    <title>Login | Light Able Admin & Dashboard Template</title>
+    <!-- [Meta] -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Light Able admin and dashboard template offer a variety of UI elements and pages, ensuring your admin panel is both fast and effective."
+    />
+    <meta name="author" content="phoenixcoded" />
+
+    <!-- [Favicon] icon -->
+    <link rel="icon" href="../assets/images/favicon.svg" type="image/x-icon" />
+ <!-- [Google Font : Public Sans] icon -->
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<!-- [phosphor Icons] https://phosphoricons.com/ -->
+<link rel="stylesheet" href="../assets/fonts/phosphor/duotone/style.css" />
+<!-- [Tabler Icons] https://tablericons.com -->
+<link rel="stylesheet" href="../assets/fonts/tabler-icons.min.css" />
+<!-- [Feather Icons] https://feathericons.com -->
+<link rel="stylesheet" href="../assets/fonts/feather.css" />
+<!-- [Font Awesome Icons] https://fontawesome.com/icons -->
+<link rel="stylesheet" href="../assets/fonts/fontawesome.css" />
+<!-- [Material Icons] https://fonts.google.com/icons -->
+<link rel="stylesheet" href="../assets/fonts/material.css" />
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- [Template CSS Files] -->
+<link rel="stylesheet" href="app.css" id="main-style-link" />
+<link rel="stylesheet" href="../assets/css/style-preset.css" />
+
+
+
+
+<style>
+ 
+
+  .chart-badge{
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color:   rgba(0, 189, 189, 1);
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 12px;
+  }
+</style>
+
+  </head>
+  <!-- [Head] end -->
+  <!-- [Body] Start -->
+  <body data-pc-preset="preset-1" data-pc-sidebar-caption="true" data-pc-direction="ltr" data-pc-theme="light" class="landing-page" data-pc-sidebar-theme="light">
+    <!-- [ Main Content ] start -->
+    <!-- [ Pre-loader ] start -->
+    
+    <!-- [ Pre-loader ] End -->
+
+    <!-- [ Header ] start -->
+    <header id="home">
+      <!-- [ Nav ] start -->
+      <nav class="navbar navbar-expand-md bg-white default top-nav-collapse shadow-sm">
+        <div class="container">
+       
+          <a href="#" class="b-brand text-primary d-flex align-items-center">
+            <img  src="/assetes/Images/osint-logo.png" class="img-brand img-fluid" alt="images"
+                style="width: 9rem" />
+        </a>
+
+          <button class="navbar-toggler rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ms-auto mt-lg-0 mt-2 mb-2 mb-lg-0 align-items-start">
+                <li class="nav-item px-1">
+                    <a class="nav-link" href="dashboard/index.html">Home</a>
+                  </li>
+              <li class="nav-item px-1">
+                <a class="nav-link text-primary" href="dashboard/index.html">Dashboard</a>
+              </li>
+              <li class="nav-item px-1">
+                <a class="nav-link" href="elements/bc_alert.html">Cases</a>
+              </li>
+              <li class="nav-item px-1">
+                <a class="nav-link" href="elements/bc_alert.html">Watchlist</a>
+              </li>
+              <li class="nav-item px-1">
+                <a class="nav-link" href="elements/bc_alert.html">User Mangement</a>
+              </li>
+              <li class="nav-item px-1">
+              <a class="nav-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+                <span>Notifications</span>
+                
+                <i class="bi bi-bell text-muted position-relative">
+                  <span class="position-absolute top-0 end-100 start-100 translate-middle   bg-danger" style="position: absolute; top: -9px; right: -8px; 
+                  background-color: red; color: white; 
+                  border-radius: 50%; padding: 3px">
+                  </span>
+                </i>
+              </a>
+            </li>
+         
+             
+            <li class="nav-item px-1">
+            
+              <div class="dropdown">
+                <a class="nav-link dropdown-toggle d-flex align-items-center justify-content-center gap-2  p-0" href="#" id="userProfile" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <div class="user-avatar-container">
+                    <img src="/assetes/Images/profile-image.png" class="user-avatar img-fluid" alt="profile">
+                  </div>
+                  <span>Yusuf Jared</span>
+                </a>
+               
+                <ul class="dropdown-menu" aria-labelledby="userProfile">
+                  <li><a class="dropdown-item" href="#">My Profile</a></li>
+                  <li><a class="dropdown-item" href="#">Settings</a></li>
+                  <li><a class="dropdown-item" href="#">Logout</a></li>
+                </ul>
+              </div>
+            </li>
+        </div>
+      </nav>
+      <!-- [ Nav ] end -->
+    </header>
+    <!-- [ Header ] End -->
+
+        <div class="container py-5">
+        <div class="row">
+            <h5 class="fw-bolder fs-4">Dashboard</h5>
+        </div>
+
+        <div class="row py-3">
+        <!-- card 1  -->
+        <div class="col-md-3 col-xxl-3">
+            <div class="card border border-0 mb-0 shadow-sm" style="background-color:rgba(255, 255, 255, 1);">
+                <div class="card-body p-4 d-flex align-items-center">
+                <div class="d-flex flex-column">
+                    <small class="fw-bold text-muted">Total Cases</small>
+                    <span class="fw-bolder fs-3">101</span>
+                </div> 
+                <div class="ms-auto bg-primary d-flex align-items-center justify-content-center p-4" style="width: 20px;height: 20px; border-radius: 50%;">
+                    <i class="bi bi-folder2-open text-white fs-4"></i>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- card 2 -->
+        <div class="col-md-3 col-xxl-3">
+            <div class="card border border-0 mb-0 shadow-sm" style="background-color:rgba(255, 255, 255, 1);">
+                <div class="card-body p-4 d-flex align-items-center">
+                <div class="d-flex flex-column">
+                    <small class="fw-bold text-muted">Active Cases</small>
+                    <span class="fw-bolder fs-3">24</span>
+                </div> 
+                <div class="ms-auto bg-primary d-flex align-items-center justify-content-center p-4" style="width: 20px;height: 20px; border-radius: 50%;">
+                    <i class="bi bi-folder2-open text-white fs-4"></i>
+                </div>
+                </div>
+            </div>
+        </div>
+            <!-- card 3  -->
+            <div class="col-md-3 col-xxl-3">
+            <div class="card border border-0 mb-0 shadow-sm" style="background-color:rgba(255, 255, 255, 1);">
+                <div class="card-body p-4 d-flex align-items-center">
+                <div class="d-flex flex-column">
+                    <small class="fw-bold text-muted">Closed Cases</small>
+                    <span class="fw-bolder fs-3">66</span>
+                </div> 
+                <div class="ms-auto bg-primary d-flex align-items-center justify-content-center p-4" style="width: 20px;height: 20px; border-radius: 50%;">
+                    <i class="bi bi-folder-check text-white fs-4"></i>
+                </div>
+                </div>
+            </div>
+        </div>
+            <!-- card 4  -->
+        <div class="col-md-3 col-xxl-3">
+            <div class="card border border-0 mb-0 shadow-sm" style="background-color:rgba(255, 255, 255, 1);">
+                <div class="card-body p-4 d-flex align-items-center">
+                <div class="d-flex flex-column">
+                    <small class="fw-bold text-muted">Cancelled Cases</small>
+                    <span class="fw-bolder fs-3">11</span>
+                </div> 
+                <div class="ms-auto bg-primary d-flex align-items-center justify-content-center p-4" style="width: 20px;height: 20px; border-radius: 50%;">
+                    <i class="bi bi-folder-plus text-white fs-4"></i>
+                </div>
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+
+        <div class="row">
+           <!-- Card for Line Chart -->
+            <div class="col-md-9">
+                <div class="card border border-0 mb-0 shadow-sm h-100">
+                <div class="card-header fw-bold border border-0 d-flex align-items-center ">
+                    Cases Chart
+                    <div class="d-flex align-items-center justify-content-center gap-2 ms-5">
+                        <span class="bg-primary" style="border-radius: 50%; padding: 3px; width: 6px; height: 6px; display: inline-block;">
+                        </span> <small class="fw-light">No of Cases</small> 
+                      </div>
+                      
+                    <div class="d-flex align-items-center justify-content-center border ps-2 ms-auto py-2">
+                        <i class="bi bi-calendar text-black"></i>
+                        <select id="yearFilter" class="form-select w-auto border border-0 py-0 fw-bold">
+                            
+                            <option value="2025" selected>  2025</option>  
+                            <option value="2024">2024</option>
+                            <option value="2023">2023</option>
+                            <option value="2022">2022</option>
+                            <option value="2021">2021</option>
+                            <option value="2020">2020</option>
+                        </select>
+                    </div>    
+                
+                </div>
+                <div class="card-body">
+                    <canvas id="lineChart1"  height="100"></canvas>
+                </div>
+                </div>
+            </div>
+
+            <!-- Card for Doughnut Chart -->
+            <div class="col-md-3">
+                <div class="card border border-0 mb-0 shadow-sm h-100">
+                <div class="card-header fw-bolder border border-0 d-flex align-items-center justify-content-center pt-5 pb-0">
+                    Watch List
+                </div>
+                <div class="card-body">
+                    <canvas id="doughnutChart1" height="100"></canvas>
+                </div>
+                <div class="card-footer fw-bolder border border-0 d-flex align-items-center justify-content-center p-5 gap-2">
+                    <span class="bg-primary" style="border-radius: 50%; padding: 3px; width: 6px; height: 6px; display: inline-block;">
+                    </span> <span class="fw-normal text-muted">Cases On Watch List</span> 
+                </div>
+                </div>
+            </div>
+        </div>
+          
+        <div class="row py-3">
+            <!-- card for  line chart-->
+            <div class="col-md-5">
+                <div class="card border border-0 mb-0 shadow-sm h-100">
+                <div class="card-header fw-bold border border-0 d-flex align-items-center">
+                    <div class="d-flex flex-column gap-3 ">
+                    Users Chart
+                    <div class="d-flex align-items-center justify-content-center gap-4">
+                        <div>
+                        <span class="bg-dark" style="border-radius: 50%; padding: 3px; width: 6px; height: 6px; display: inline-block;">
+                        </span> <small class="fw-light">Onboarded Users</small> 
+                    </div>
+                    <div>
+                        <span class="bg-primary" style="border-radius: 50%; padding: 3px; width: 6px; height: 6px; display: inline-block;">
+                        </span> <small class="fw-light">Active Users</small> 
+                    </div>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center border ps-2 ms-auto py-2">
+                        <i class="bi bi-calendar text-black"></i>
+                        <select id="yearFilter" class="form-select w-auto border border-0 py-0 fw-bold">
+                            
+                            <option value="2025" selected>  2025</option>  
+                            <option value="2024">2024</option>
+                            <option value="2023">2023</option>
+                            <option value="2022">2022</option>
+                            <option value="2021">2021</option>
+                            <option value="2020">2020</option>
+                        </select>
+                    </div>    
+                
+                </div>
+                <div class="card-body">
+                    <canvas id="lineChart2"  height="100"></canvas>
+                </div>
+                </div>
+            </div>
+
+            <!-- card for details -->
+            <div class="col-md-4">
+                <div class="card border border-0 mb-0 shadow-sm h-100">
+                <div class="card-header fw-bold border border-0 d-flex align-items-center ">
+                    <span>User’s Recently Onboarded</span>
+                   
+                      
+                    <a href="" class="ms-auto text-muted">
+                        View All
+                    </a>    
+                
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-hover table-borderless table-sm mb-0">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <div class="d-inline-block align-middle">
+                                  <img src="/assetes/Images/details-pic.png" alt="user image" class="img-radius align-top m-r-15" style="width: 40px">
+                                  <div class="d-inline-block">
+                                    <h6 class="m-b-0">Usman Ahmed Jaliyamanu</h6>
+                                    <p class="m-b-0 text-muted">Created: 10 Jan 2025</p>
+                                  </div>
+                                </div>
+                              </td>
+                           
+                            </tr>
+                            <tr>
+                              <td>
+                                <div class="d-inline-block align-middle">
+                                  <img src="/assetes/Images/details-pic.png" alt="user image" class="img-radius align-top m-r-15" style="width: 40px">
+                                  <div class="d-inline-block">
+                                    <h6 class="m-b-0">Usman Ahmed Jaliyamanu</h6>
+                                    <p class="m-b-0 text-muted">Created: 10 Jan 2025</p>
+                                  </div>
+                                </div>
+                              </td>
+                             
+                            </tr>
+                            <tr>
+                              <td>
+                                <div class="d-inline-block align-middle">
+                                  <img src="/assetes/Images/details-pic.png" alt="user image" class="img-radius align-top m-r-15" style="width: 40px">
+                                  <div class="d-inline-block">
+                                    <h6 class="m-b-0">Usman Ahmed Jaliyamanu</h6>
+                                    <p class="m-b-0 text-muted">Created: 10 Jan 2025</p>
+                                  </div>
+                                </div>
+                              </td>
+                            
+                            </tr>
+                            <tr>
+                              <td>
+                                <div class="d-inline-block align-middle">
+                                  <img src="/assetes/Images/details-pic.png" alt="user image" class="img-radius align-top m-r-15" style="width: 40px">
+                                  <div class="d-inline-block">
+                                    <h6 class="m-b-0">Usman Ahmed Jaliyamanu</h6>
+                                    <p class="m-b-0 text-muted">Created: 10 Jan 2025</p>
+                                  </div>
+                                </div>
+                              </td>
+                            
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                </div>
+                </div>
+            </div>
+
+            <!-- card for doughnut chart-->
+            <div class="col-md-3">
+                <div class="card border border-0 mb-0 shadow-sm h-59">
+                <div class="card-header fw-bolder border border-0 d-flex align-items-center justify-content-center pt-5 pb-0">
+                    Role Distribution
+                </div>
+                <div class="card-body">
+                    <canvas id="doughnutChart2" height="100"></canvas>
+                </div>
+                <div class="card-footer fw-bolder border border-0 d-flex align-items-center justify-content-center p-5 gap-2">
+                    <span class="bg-primary" style="border-radius: 50%; padding: 3px; width: 6px; height: 6px; display: inline-block;">
+                    </span> <span class="fw-normal text-muted">System Administrators</span> 
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+   
+        <div class="offcanvas offcanvas-end p-3" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel" style="width: 595px;">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title fw-bolder fs-4" id="staticBackdropLabel">Notifications</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                <ul class="list-group">
+                  <li class="list-group-item p-0 py-4 border-0">
+                    <div class="d-inline-block">
+                        <h6 class="m-b-0">New Case Created</h6>
+                        <p class="m-b-0 text-muted"><small>A new case has been created by User 012</small></p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item p-0 py-4 border-0">
+                    <div class="d-inline-block">
+                        <h6 class="m-b-0">New Role assigned</h6>
+                        <p class="m-b-0 text-muted"><small>You have been assigned a new role as a System Administrator, you can now access the ‘User Management Module’</small></p>
+                      </div>
+                  </li>
+                  
+                  <li class="list-group-item p-0 py-4 border-0">
+                    <div class="d-inline-block">
+                        <h6 class="m-b-0">Case Result Shared</h6>
+                        <p class="m-b-0 text-muted"><small>User 009 has shared a Case result with you, with Case Number 023n 2025</small></p>
+                         <a type="btn" href="#" class="btn btn-primary btn-sm mt-2 fw-normal px-2">
+                            View Result
+                         </a>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+    
+ 
+    <!-- [ footer apps ] End -->
+    <!-- [ Main Content ] end -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"  ></script>
+
+    
+<script>
+    
+        // line chart 1
+        var ctxLine = document.getElementById('lineChart2').getContext('2d'); 
+    var lineChart2 = new Chart(ctxLine, {
+        type: 'line',
+        data: {
+            labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],  
+          datasets: [
+            {
+                data: [32, 25, 35, 40, 50, 50, 30, 20, 90, 10, 20, 6],
+                borderColor: 'rgb(75, 192, 192)',
+                backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                borderWidth: 2,
+                fill: false,
+                tension: 0.8,
+                lineTension: 0.8
+            },
+            {
+                data: [10, 30, 45, 60, 70, 80, 60, 50, 40, 30, 20, 10],
+                borderColor: 'rgba(0, 64, 64, 1)',
+                backgroundColor: 'rgba(0, 64, 64, 1)',
+                borderWidth: 2,
+                fill: false,
+                tension: 0.8,
+                lineTension: 0.8
+            }
+        ]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                x: {
+                    grid: {
+                        display: false  
+                    },
+                    ticks: {
+                        display: true  
+                    }
+                },
+                y: {
+                    grid: {
+                        display: false  
+                    },
+                    ticks: {
+                        display: true, 
+                        beginAtZero: true
+                    }
+                }
+            },
+            plugins: {
+                legend: {
+                    display: false,  // Removed legend
+                }
+            }
+        }
+    });
+
+    // line chart 2
+    var ctxLine = document.getElementById('lineChart1').getContext('2d'); 
+    var lineChart1 = new Chart(ctxLine, {
+        type: 'line',
+        data: {
+            labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],  
+            datasets: [{
+                label: '',  
+                data: [32, 25, 35, 40, 50, 50, 30, 20, 90, 10, 20, 6],  
+                borderColor: '',  
+                backgroundColor: '',  
+                borderWidth: 2,
+                fill: false,
+                tension: 0.4,
+                lineTension: 0.4
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                x: {
+                    grid: {
+                        display: false  
+                    },
+                    ticks: {
+                        display: true  
+                    }
+                },
+                y: {
+                    grid: {
+                        display: false  
+                    },
+                    ticks: {
+                        display: true, 
+                        beginAtZero: true
+                    }
+                }
+            },
+            plugins: {
+                legend: {
+                    display: false,  // Removed legend
+                }
+            }
+        }
+    });
+
+            
+
+</script>
+
+
+
+<script>
+    
+// Doughnut chart 1 setup
+var ctxDoughnut1 = document.getElementById('doughnutChart1').getContext('2d');
+var doughnutChart1 = new Chart(ctxDoughnut1, {
+    type: 'doughnut',
+    data: {
+        datasets: [{
+            data: [40, 100, 0, 0],
+            backgroundColor: [
+                'rgba(0, 189, 189, 1)', 
+                'rgba(0, 189, 189, 0.15)', 
+                'rgba(0, 64, 64, 1)',
+                'rgba(212, 212, 212, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: {
+            legend: {
+                position: 'top'
+            },
+            tooltip: {
+                enabled: false // Disable tooltip (optional)
+            },
+            // Custom plugin to add the number 13 at the center of the doughnut
+            afterDraw: function(chart) {
+                var ctx = chart.ctx;
+                var width = chart.width;
+                var height = chart.height;
+                var centerX = width / 2;
+                var centerY = height / 2;
+                var fontSize = 40; // Size of the number
+
+                // Set the font style and color
+                ctx.save();
+                ctx.font = fontSize + "px Arial";
+                ctx.fillStyle = "black"; 
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+
+                // Draw the number 13 at the center
+                ctx.fillText('13', centerX, centerY);
+
+                ctx.restore();
+            }
+        }
+    }
+});
+
+// Doughnut chart 2 setup
+var ctxDoughnut2 = document.getElementById('doughnutChart2').getContext('2d');
+var doughnutChart2 = new Chart(ctxDoughnut2, {
+    type: 'doughnut',
+    data: {
+        datasets: [{
+            data: [50, 50, 50, 50],
+            backgroundColor: [
+                'rgba(0, 189, 189, 1)', 
+                'rgba(212, 212, 212, 1)',
+                'rgba(0, 189, 189, 0.15)', 
+                'rgba(0, 64, 64, 1)',
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: {
+            legend: {
+                position: 'top'
+            },
+            tooltip: {
+                enabled: false // Disable tooltip (optional)
+            },
+            // Custom plugin to add the number 20 at the center of the doughnut
+            afterDraw: function(chart) {
+                var ctx = chart.ctx;
+                var width = chart.width;
+                var height = chart.height;
+                var centerX = width / 2;
+                var centerY = height / 2;
+                var fontSize = 40; // Size of the number
+
+                // Set the font style and color
+                ctx.save();
+                ctx.font = fontSize + "px Arial";
+                ctx.fillStyle = "black"; 
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+
+                // Draw the number 20 at the center
+                ctx.fillText('20', centerX, centerY);
+
+                ctx.restore();
+            }
+        }
+    }
+});
+</script>
+        
+    <script>
+        
+      layout_change('light');
+      layout_sidebar_change('false');
+      change_box_container('false');
+      layout_caption_change('true');
+      layout_rtl_change('false');
+      preset_change('preset-1');
+      // Start [ Menu hide/show on scroll ]
+      let ost = 0;
+      document.addEventListener('scroll', function () {
+        let cOst = document.documentElement.scrollTop;
+        if (cOst == 0) {
+          document.querySelector('.navbar').classList.add('top-nav-collapse');
+        } else if (cOst > ost) {
+          document.querySelector('.navbar').classList.add('top-nav-collapse');
+          document.querySelector('.navbar').classList.remove('default');
+        } else {
+          document.querySelector('.navbar').classList.add('default');
+          document.querySelector('.navbar').classList.remove('top-nav-collapse');
+        }
+        ost = cOst;
+      });
+      // End [ Menu hide/show on scroll ]
+      var wow = new WOW({
+        animateClass: 'animate__animated'
+      });
+      wow.init();
+      // slider start
+      const price_Swiper = new Swiper('.price-slides', {
+        loop: true,
+        slidesPerView: '1',
+        centeredSlides: true,
+        spaceBetween: 20,
+        navigation: {
+          prevEl: '.customPrev-btn',
+          nextEl: '.customNext-btn'
+        }
+      });
+      const why_Swiper = new Swiper('.why-slides', {
+        loop: true,
+        slidesPerView: '3.5',
+        centeredSlides: true,
+        spaceBetween: 20,
+        autoplay: {
+          delay: 2500
+        },
+        navigation: {
+          prevEl: '.slidePrev-btn',
+          nextEl: '.slideNext-btn'
+        },
+        breakpoints: {
+          0: {
+            slidesPerView: 1.2,
+            spaceBetween: 10
+          },
+          592: {
+            slidesPerView: 1.8,
+            spaceBetween: 10
+          },
+          768: {
+            slidesPerView: 2.5,
+            spaceBetween: 20
+          },
+          1200: {
+            slidesPerView: '3.5',
+            spaceBetween: 20
+          }
+        }
+      });
+      const swiper = new Swiper('.comminuties-slides', {
+        loop: true,
+        centeredSlides: false,
+        autoplay: {
+          delay: 2000
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true
+        },
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+            spaceBetween: 10
+          },
+          768: {
+            slidesPerView: 1,
+            spaceBetween: 20
+          },
+          1200: {
+            slidesPerView: 2,
+            spaceBetween: 20
+          }
+        }
+      });
+    </script>
+    <!-- [Page Specific JS] end -->
+  
+
+<script type="text/javascript" async="" src="https://pt.wisernotify.com/pixel.js?ti=1jclj6jkfc4hhry"></script><div id="NFDGdflt26_Sb42thdfyf_main"><div id="NFDGdflt26_Sb42thdfyf_0"></div><div id="dvscl_prf_clctr"></div></div></body>
+</body>
+  <!-- [Body] end -->
+</html>
