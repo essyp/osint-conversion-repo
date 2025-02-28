@@ -589,28 +589,18 @@ kbd kbd {
 
 /* custom css  */
 
-.category small {
-  color: var(--bs-gray-500);
-  opacity: 1.0;
-}
-.category hr{
-  color: var(--bs-body-bg);
-  opacity: 1.0;
-  margin-bottom: 0;
-}
-.category{
+.hover-effect {
   transition: 0.4s;
 }
-.category:hover{
-  cursor: pointer;
+.hover-effect:hover{
   background-color: var(--bs-body-bg);
 }
 .hide{
-  color: white;
+  opacity: 0;
   transition: 0.4s;
 }
-.category:hover .hide{
-  color: var(--bs-heading-color);
+.hover-effect:hover .hide{
+  opacity: 1;
 }
 
 figure {
